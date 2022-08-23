@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="keywords" content="isc, computer aplication,java,programs solutions,functions,inheritence">
+        <meta name="description" content="Solutions for class 12th ISC Computer Applicaton">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+        <title>📕 <%- title %>
+        </title>
+        <link rel="shortcut icon" href="images/568.png" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+            integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <style>
+            .col {
+                background-image: url('textwater.png');
+            }
+
+            .img-fluid {
+                width: 72%;
+            }
+
+            .screen-break {
+                display: none;
+            }
+
+            @media screen and (max-width: 768px) {
+                .img-fluid {
+                    width: 100%;
+                }
+
+                .heading {
+                    font-size: 0.9rem !important;
+                }
+
+                .screen-break {
+                    display: block;
+                }
+
+                .matrix td {
+                    padding: 4px;
+                }
+            }
+
+            .frac {
+                display: inline-block;
+                position: relative;
+                vertical-align: middle;
+                letter-spacing: 0.001em;
+                text-align: center;
+            }
+
+            .frac>span {
+                display: block;
+                padding: 0.1em;
+            }
+
+            .frac span.bottom {
+                border-top: thin solid black;
+            }
+
+            .frac span.symbol {
+                display: none;
+            }
+
+
+
+            .heading {
+                display: block;
+                font-weight: 600;
+                font-size: 1.1rem;
+            }
+
+            .matrix:before,
+            .matrix1:before,
+            .matrix2:before {
+                content: "{";
+                position: absolute;
+                top: -17px;
+                font-size: 3em;
+                font-weight: 300;
+            }
+
+            .matrix:before,
+            .matrix1:before,
+            .matrix2:before {
+                left: -17px;
+                border-right: 0;
+            }
+
+            .matrix1:before,
+            .matrix2:before {
+                left: -24px;
+                top: -29px;
+                font-size: 5em;
+            }
+
+            .matrix2:before {
+                top: -5px !important;
+            }
+
+            .matrix:after {
+                right: -6px;
+                border-left: 0;
+            }
+
+            .matrix {
+                position: relative;
+            }
+
+            .matrix-div {
+                display: inline-block;
+                position: relative;
+                margin: 0px 12px;
+                top: 27px;
+                /* margin-bottom: 20px; */
+            }
+        </style>
+    </head>
+</head>
+
+<body class="bg-light">
+
+    <!-- header -->
+    <h1 class="text-center text-danger">CLASS 12 C&D EXERCISE 5.1</h1>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col border border-1 mt-3">
+                <span class="text-danger heading"><span class="fw-bold">Q1</span>
+                    Prove that the function f(x) = 5x – 3 is continuous at x = 0, at x = – 3 and at x = 5.
+                </span>
+
+
+                <br>
+                <br> <span class="text-success heading">Solutions </span>
+                <img src="cdimg/exercise5.1img/img1.jpg" alt="" class="img-fluid">
+                <img src="cdimg/exercise5.1img/img1-1.jpg" alt="" class="img-fluid">
+                <img src="cdimg/exercise5.1img/img1-2.jpg" alt="" class="img-fluid">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col border border-1 mt-3">
+                <span class="text-danger heading"><span class="fw-bold">Q2</span>
+                    Examine the continuity of the function f(x) = 2x<sup>2</sup>– 1 at x = 3.
+                </span>
+
+
+                <br>
+                <br> <span class="text-success heading">Solutions </span>
+                <img src="cdimg/exercise5.1img/img2.jpg" alt="" class="img-fluid">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col border border-1 mt-3">
+                <span class="text-danger heading"><span class="fw-bold">Q3</span>
+                    Examine the following functions for continuity
+                </span>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col border border-1 mt-3">
+                <span class="text-danger heading"><span class="fw-bold">Q(a)</span>
+                    f(x)=x-5
+                </span>
+
+
+                <br>
+                <br> <span class="text-success heading">Solutions </span>
+                <img src="cdimg/exercise5.1img/img3(a).jpg" alt="" class="img-fluid">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col border border-1 mt-3">
+                <span class="text-danger heading"><span class="fw-bold">Q(b)</span>
+                    f(x)= <div class="frac">
+                        <span>
+                            1
+                        </span>
+                        <span class="symbol">/</span>
+                        <span class="bottom">x-5</span>
+                    </div>,x ≠ 5
+                </span>
+
+
+                <br>
+                <br> <span class="text-success heading">Solutions </span>
+                <img src="cdimg/exercise5.1img/img3(b).jpg" alt="" class="img-fluid">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col border border-1 mt-3">
+                <span class="text-danger heading"><span class="fw-bold">Q(c)</span>
+                    f(x)= <div class="frac">
+                        <span>
+                            x<sup>2</sup>-25
+                        </span>
+                        <span class="symbol">/</span>
+                        <span class="bottom">x+5</span>
+                    </div>,x ≠ -5
+                </span>
+
+
+                <br>
+                <br> <span class="text-success heading">Solutions </span>
+                <img src="cdimg/exercise5.1img/img3(c).jpg" alt="" class="img-fluid">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col border border-1 mt-3">
+                <span class="text-danger heading"><span class="fw-bold">Q(d)</span>
+                    f(x)= |x-5|
+                </span>
+
+
+                <br>
+                <br> <span class="text-success heading">Solutions </span>
+                <img src="cdimg/exercise5.1img/img3(d).jpg" alt="" class="img-fluid">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col border border-1 mt-3">
+                <span class="text-danger heading"><span class="fw-bold">Q(4)</span>
+                    Prove that the function f(x) = x<sup>n</sup>
+                    is continuous at x = n, where n is a positive
+                    integer
+                </span>
+
+
+                <br>
+                <br> <span class="text-success heading">Solutions </span>
+                <img src="cdimg/exercise5.1img/img4.jpg" alt="" class="img-fluid">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col border border-1 mt-3">
+                <span class="text-danger heading"><span class="fw-bold">Q(5)</span>
+                    Is the function f defined by
+                    <br>
+                    f(x)=<div class="matrix-div" style="top:27px;left:6px;">
+                        <table class="matrix">
+                            <tr>
+                                <td>
+                                    x,if x ≤1 </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    5, if > 1
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                    <br>
+                    <br>
+                    continuous at x = 0? At x = 1? At x = 2?
+                </span>
+
+
+                <br>
+                <br> <span class="text-success heading">Solutions </span>
+                <img src="cdimg/exercise5.1img/img5.jpg" alt="" class="img-fluid">
+                <img src="cdimg/exercise5.1img/img5-1.jpg" alt="" class="img-fluid">
+                <img src="cdimg/exercise5.1img/img5-2.jpg" alt="" class="img-fluid">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col border border-1 mt-3">
+                <span class="text-danger heading"><span class="fw-bold">Q(6)</span>
+
+                    f(x)=<div class="matrix-div" style="top:27px;left:6px;">
+                        <table class="matrix">
+                            <tr>
+                                <td>
+                                    2x + 3, if x ≤ 2
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    2x - 3, if x > 2
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+
+                </span>
+
+
+                <br>
+                <br> <span class="text-success heading">Solutions </span>
+                <img src="cdimg/exercise5.1img/img6.jpg" alt="" class="img-fluid">
+                <img src="cdimg/exercise5.1img/img6-1.jpg" alt="" class="img-fluid">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col border border-1 mt-3">
+                <span class="text-danger heading"><span class="fw-bold">Q(7)</span>
+                    f(x)= <div class="matrix-div" style="top:27px;left:6px;">
+                        <table class="matrix1">
+                            <tr>
+                                <td>|x| + 3, if x ≤−3</td>
+                            </tr>
+                            <tr>
+                                <td>-2x, if -3< x< 3</td>
+                            </tr>
+                            <tr>
+                                <td>6x+2,if x≥3 </td>
+                            </tr>
+                        </table>
+                    </div>
+                </span>
+
+
+                <br>
+                <br> <span class="text-success heading">Solutions </span>
+                <img src="cdimg/exercise5.1img/img7.jpg" alt="" class="img-fluid">
+                <img src="cdimg/exercise5.1img/img7-1.jpg" alt="" class="img-fluid">
+                <img src="cdimg/exercise5.1img/img7-2.jpg" alt="" class="img-fluid">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col border border-1 mt-3">
+                <span class="text-danger heading"><span class="fw-bold">Q8</span>
+                    f(x)= <div class="matrix-div" style="top:27px;left:6px;">
+                        <table class="matrix1">
+                            <tr>
+                                <td>
+                                    <div class="frac">
+                                        <span>
+                                            |x|
+                                        </span>
+                                        <span class="symbol">/</span>
+                                        <span class="bottom">x</span>
+                                    </div>,if x&notEqual;0
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>0 ,if x=0</td>
+                            </tr>
+                        </table>
+                    </div>
+                </span>
+
+
+                <br>
+                <br> <span class="text-success heading">Solutions </span>
+                <img src="cdimg/exercise5.1img/img8.jpg" alt="" class="img-fluid">
+                <img src="cdimg/exercise5.1img/img8-1.jpg" alt="" class="img-fluid">
+                <img src="cdimg/exercise5.1img/img8-2.jpg" alt="" class="img-fluid">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col border border-1 mt-3">
+                <span class="text-danger heading"><span class="fw-bold">Q(9)</span>
+                    f(x)= <div class="matrix-div" style="top:27px;left:6px;">
+                        <table class="matrix1">
+                            <tr>
+                                <td>
+                                    <div class="frac">
+                                        <span>
+                                            x
+                                        </span>
+                                        <span class="symbol">/</span>
+                                        <span class="bottom">|x|</span>
+                                    </div>,if x< 0 </td>
+                            </tr>
+                            <tr>
+                                <td>-1 ,if x ≥ 0</td>
+                            </tr>
+                        </table>
+                    </div>
+                </span>
+
+
+                <br>
+                <br> <span class="text-success heading">Solutions </span>
+                <img src="cdimg/exercise5.1img/img9.jpg" alt="" class="img-fluid">
+                <img src="cdimg/exercise5.1img/img9-1.jpg" alt="" class="img-fluid">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col border border-1 mt-3">
+                <span class="text-danger heading"><span class="fw-bold">Q(10)</span>
+                    f(x)= <div class="matrix-div" style="top:27px;left:6px;">
+                        <table class="matrix">
+                            <tr>
+                                <td>
+                                    x+1,if x ≥ 1
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    x<sup>2</sup>+1 ,if x< 1 </td>
+                            </tr>
+                        </table>
+                    </div>
+                </span>
+
+
+                <br>
+                <br> <span class="text-success heading">Solutions </span>
+                <img src="cdimg/exercise5.1img/img10.jpg" alt="" class="img-fluid">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col border border-1 mt-3">
+                <span class="text-danger heading"><span class="fw-bold">Q(11)</span>
+                    f(x)= <div class="matrix-div" style="top:27px;left:6px;">
+                        <table class="matrix">
+                            <tr>
+                                <td>
+                                    x<sup>3</sup>-3,if x ≤2
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    x<sup>2</sup>+1,if x > 2
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </span>
+
+
+                <br>
+                <br> <span class="text-success heading">Solutions </span>
+                <img src="cdimg/exercise5.1img/img11.jpg" alt="" class="img-fluid">
+                <img src="cdimg/exercise5.1img/img11-1.jpg" alt="" class="img-fluid">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col border border-1 mt-3">
+                <span class="text-danger heading"><span class="fw-bold">Q(12)</span>
+                    f(x)= <div class="matrix-div" style="top:27px;left:6px;">
+                        <table class="matrix">
+                            <tr>
+                                <td>
+                                    x<sup>10</sup>-1,if x ≤ 1
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    x<sup>2</sup>,if x > 1
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </span>
+                </span>
+
+
+                <br>
+                <br> <span class="text-success heading">Solutions </span>
+                <img src="cdimg/exercise5.1img/img12.jpg" alt="" class="img-fluid">
+                <img src="cdimg/exercise5.1img/img12-1.jpg" alt="" class="img-fluid">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col border border-1 mt-3">
+                <div class="text-danger heading"><span class="fw-bold">Q(13)</span>
+
+                    Is the function defined by
+                    f(x)= <div class="matrix-div" style="top:27px;left:6px;">
+                        <table class="matrix">
+                            <tr>
+                                <td>
+                                    x+5,if x ≤ 1
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    x - 5,if x > 1
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <br>
+                    <br>
+
+                    a continuous function?
+                    </span>
+
+
+                    <br>
+                    <br> <span class="text-success heading">Solutions </span>
+                    <img src="cdimg/exercise5.1img/img13.jpg" alt="" class="img-fluid">
+                    <img src="cdimg/exercise5.1img/img13-1.jpg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col border border-1 mt-3">
+                    <span class="text-danger heading"><span class="fw-bold">Q(14)</span>
+                        f(x)= <div class="matrix-div" style="top:27px;left:6px;">
+                            <table class="matrix1">
+                                <tr>
+                                    <td>3 ,if 0 ≤ x ≤ 1</td>
+                                </tr>
+                                <tr>
+                                    <td>4, if 1 < x < 3 </td>
+                                </tr>
+                                <tr>
+                                    <td>5, if 3 ≤ x ≤ 10</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </span>
+
+
+                    <br>
+                    <br> <span class="text-success heading">Solutions </span>
+                    <img src="cdimg/exercise5.1img/img14.jpg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col border border-1 mt-3">
+                    <span class="text-danger heading"><span class="fw-bold">Q(15)</span>
+                        f(x)= <div class="matrix-div" style="top:27px;left:6px;">
+                            <table class="matrix1">
+                                <tr>
+                                    <td>2x , if x< 0</td>
+                                </tr>
+                                <tr>
+                                    <td>0, if 0 ≤ x ≤ 1 </td>
+                                </tr>
+                                <tr>
+                                    <td>4x , if x> 1</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </span>
+
+
+                    <br>
+                    <br> <span class="text-success heading">Solutions </span>
+                    <img src="cdimg/exercise5.1img/img15.jpg" alt="" class="img-fluid">
+                    <img src="cdimg/exercise5.1img/img15-1.jpg" alt="" class="img-fluid">
+                    <img src="cdimg/exercise5.1img/img15-2.jpg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col border border-1 mt-3">
+                    <span class="text-danger heading"><span class="fw-bold">Q(16)</span>
+                        f(x)= <div class="matrix-div" style="top:27px;left:6px;">
+                            <table class="matrix1">
+                                <tr>
+                                    <td>-2 , if x≤ -1</td>
+                                </tr>
+                                <tr>
+                                    <td>2x, if -1 < x ≤ 1 </td>
+                                </tr>
+                                <tr>
+                                    <td>2 , if x> 1</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </span>
+
+
+                    <br>
+                    <br> <span class="text-success heading">Solutions </span>
+                    <img src="cdimg/exercise5.1img/img16.jpg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col border border-1 mt-3">
+                    <span class="text-danger heading"><span class="fw-bold">Q(17)</span>
+                        Find the relationship between a and b so that the function f defined by
+                        <br>
+                        f(x)=<div class="matrix-div" style="top:27px;left:6px;">
+                            <table class="matrix">
+                                <tr>
+                                    <td>
+                                        ax + 1,if x ≤ 3 </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        bx+3 , if x>3
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+                        <br>
+                        <br>
+                        is continuous at x = 3
+                    </span>
+
+
+                    <br>
+                    <br> <span class="text-success heading">Solutions </span>
+                    <img src="cdimg/exercise5.1img/img17.jpg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col border border-1 mt-3">
+                    <span class="text-danger heading"><span class="fw-bold">Q(18)</span>
+                        For what value of λ is the function defined by
+                        <br>
+                        f(x)=<div class="matrix-div" style="top:27px;left:6px;">
+                            <table class="matrix">
+                                <tr>
+                                    <td>
+                                        λ−(x<sup>2</sup>-2x), if x≤ 0</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        4x+1, if x >0
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+                        <br>
+                        <br>
+                        continuous at x = 0? What about continuity at x = 1?
+                    </span>
+
+
+                    <br>
+                    <br> <span class="text-success heading">Solutions </span>
+                    <img src="cdimg/exercise5.1img/img18.jpg" alt="" class="img-fluid">
+                    <img src="cdimg/exercise5.1img/img18-1.jpg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col border border-1 mt-3">
+                    <span class="text-danger heading"><span class="fw-bold">Q(19)</span>
+                        Show that the function defined by g (x) = x – [x] is discontinuous at all integral
+                        points. Here [x] denotes the greatest integer less than or equal to x
+                    </span>
+
+
+                    <br>
+                    <br> <span class="text-success heading">Solutions </span>
+                    <img src="cdimg/exercise5.1img/img19.jpg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col border border-1 mt-3">
+                    <span class="text-danger heading"><span class="fw-bold">Q(20)</span>
+                        Is the function defined by f(x) = x<sup>2</sup>– sin x + 5 continuous at x = π?
+                    </span>
+
+
+                    <br>
+                    <br> <span class="text-success heading">Solutions </span>
+                    <img src="cdimg/exercise5.1img/img20.jpg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col border border-1 mt-3">
+                    <span class="text-danger heading"><span class="fw-bold">Q(21)</span>
+                        Discuss the continuity of the following functions:
+                        <br>
+                        <ol type="a">
+                            <li>f(x) = sin x + cos x</li>
+                            <li>f(x) = sin x – cos x</li>
+                            <li>f(x) = sin x . cos x</li>
+                        </ol>
+                    </span>
+
+
+                    <br>
+                    <br> <span class="text-success heading">Solutions </span>
+                    <img src="cdimg/exercise5.1img/img21(a).jpg" alt="" class="img-fluid">
+                    <img src="cdimg/exercise5.1img/img21(a)-1.jpg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col border border-1 mt-3">
+                    <span class="text-danger heading"><span class="fw-bold">Q(22)</span>
+                        Discuss the continuity of the cosine, cosecant, secant and cotangent functions.
+                    </span>
+
+
+                    <br>
+                    <br> <span class="text-success heading">Solutions </span>
+                    <img src="cdimg/exercise5.1img/img22.jpg" alt="" class="img-fluid">
+                    <img src="cdimg/exercise5.1img/img22-1.jpg" alt="" class="img-fluid">
+                    <img src="cdimg/exercise5.1img/img22-2.jpg" alt="" class="img-fluid">
+                    <img src="cdimg/exercise5.1img/img22-3.jpg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col border border-1 mt-3">
+                    <span class="text-danger heading"><span class="fw-bold">Q(23)</span>
+                        Find all points of discontinuity of f, where
+                        <br>
+                        f(x)=<div class="matrix-div" style="top:27px;left:6px;">
+                            <table class="matrix1">
+                                <tr>
+                                    <td>
+                                        <div class="frac">
+                                            <span>
+                                                sinx
+                                            </span>
+                                            <span class="symbol">/</span>
+                                            <span class="bottom">x</span>
+                                        </div> , if x< 0 </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        x+1, if x ≥ 0
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+
+                    </span>
+
+
+                    <br>
+                    <br> <span class="text-success heading">Solutions </span>
+                    <img src="cdimg/exercise5.1img/img23.jpg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col border border-1 mt-3">
+                    <span class="text-danger heading"><span class="fw-bold">Q(24)</span>
+                        Determine if f defined by
+                        <br>
+                        f(x)=<div class="matrix-div" style="top:27px;left:6px;">
+                            <table class="matrix1">
+                                <tr>
+                                    <td>
+                                        x<sup>2</sup> sin<div class="frac">
+                                            <span>
+                                                1
+                                            </span>
+                                            <span class="symbol">/</span>
+                                            <span class="bottom">x</span>
+                                        </div> , if x &NotEqual; 0 </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        0, if x=0
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+                        <br>
+                        <br>
+                        is a continuous function?
+
+                    </span>
+
+
+                    <br>
+                    <br> <span class="text-success heading">Solutions </span>
+                    <img src="cdimg/exercise5.1img/img24.jpg" alt="" class="img-fluid">
+                    <img src="cdimg/exercise5.1img/img24-1.jpg" alt="" class="img-fluid">
+                    <img src="cdimg/exercise5.1img/img24-2.jpg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col border border-1 mt-3">
+                    <span class="text-danger heading"><span class="fw-bold">Q(25)</span>
+                        Examine the continuity of f, where f is defined by
+                        <br>
+                        f(x)=<div class="matrix-div" style="top:27px;left:6px;">
+                            <table class="matrix">
+                                <tr>
+                                    <td>
+                                        sinx -cosx , if x &NotEqual; 0 </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        -1, if x=0
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+
+                    </span>
+
+
+                    <br>
+                    <br> <span class="text-success heading">Solutions </span>
+                    <img src="cdimg/exercise5.1img/img25.jpg" alt="" class="img-fluid">
+                    <img src="cdimg/exercise5.1img/img25-1.jpg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col border border-1 mt-3">
+                    <span class="text-danger heading"><span class="fw-bold">Q(26)</span>
+                        f(x)=<div class="matrix-div" style="top:46px;left:10px;">
+                            <table class="matrix2">
+                                <tr>
+                                    <td>
+                                        <div class="frac">
+                                            <span>
+                                                k cosx
+                                            </span>
+                                            <span class="symbol">/</span>
+                                            <span class="bottom">&pi;-2x</span>
+                                        </div>, if x &NotEqual; <div class="frac">
+                                            <span>
+                                                &pi;
+                                            </span>
+                                            <span class="symbol">/</span>
+                                            <span class="bottom">2</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        3, if x =<div class="frac">
+                                            <span>
+                                                &pi;
+                                            </span>
+                                            <span class="symbol">/</span>
+                                            <span class="bottom">2</span>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div> at x= <div class="frac">
+                            <span>
+                                &pi;
+                            </span>
+                            <span class="symbol">/</span>
+                            <span class="bottom">2</span>
+                        </div>
+
+                    </span>
+
+
+                    <br>
+                    <br> <span class="text-success heading">Solutions </span>
+                    <img src="cdimg/exercise5.1img/img26.jpg" alt="" class="img-fluid">
+                    <img src="cdimg/exercise5.1img/img26-1.jpg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col border border-1 mt-3">
+                    <span class="text-danger heading"><span class="fw-bold">Q(27)</span>
+                        f(x)=<div class="matrix-div" style="top:27px;left:6px;">
+                            <table class="matrix">
+                                <tr>
+                                    <td>
+                                        kx<sup>2</sup> ,if x ≤ 2
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        3,if x > 2
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div> at x= 2
+
+
+                    </span>
+
+
+                    <br>
+                    <br> <span class="text-success heading">Solutions </span>
+                    <img src="cdimg/exercise5.1img/img25.jpg" alt="" class="img-fluid">
+                    <img src="cdimg/exercise5.1img/img25-1.jpg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col border border-1 mt-3">
+                    <span class="text-danger heading"><span class="fw-bold">Q(28)</span>
+                        f(x)=<div class="matrix-div" style="top:27px;left:6px;">
+                            <table class="matrix">
+                                <tr>
+                                    <td>
+                                        kx+1 ,if x ≤ &pi;
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        cosx,if x > &pi;
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div> at x= &pi;
+
+
+                    </span>
+
+
+                    <br>
+                    <br> <span class="text-success heading">Solutions </span>
+                    <img src="cdimg/exercise5.1img/img28.jpg" alt="" class="img-fluid">
+                    <img src="cdimg/exercise5.1img/img28-1.jpg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col border border-1 mt-3">
+                    <span class="text-danger heading"><span class="fw-bold">Q(29)</span>
+                        f(x)=<div class="matrix-div" style="top:27px;left:6px;">
+                            <table class="matrix">
+                                <tr>
+                                    <td>
+                                        kx+1 ,if x ≤ 5
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        3x-5,if x > 5
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div> at x= 5
+
+
+                    </span>
+
+
+                    <br>
+                    <br> <span class="text-success heading">Solutions </span>
+                    <img src="cdimg/exercise5.1img/img29.jpg" alt="" class="img-fluid">
+                    <img src="cdimg/exercise5.1img/img29-1.jpg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col border border-1 mt-3">
+                    <span class="text-danger heading"><span class="fw-bold">Q(30)</span>
+                        Find the values of a and b such that the function defined by
+                        <br>
+                        f(x)=<div class="matrix-div" style="top:27px;left:6px;">
+                            <table class="matrix1">
+                                <tr>
+                                    <td>
+                                        5, if x≤2
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        ax+b,if 2< x < 10 </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        21, if x ≥ 10
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+                        <div class="screen-break"><br><br></div>
+                        is a continuous function
+
+                    </span>
+
+
+                    <br>
+                    <br> <span class="text-success heading">Solutions </span>
+                    <img src="cdimg/exercise5.1img/img25.jpg" alt="" class="img-fluid">
+                    <img src="cdimg/exercise5.1img/img25-1.jpg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col border border-1 mt-3">
+                    <span class="text-danger heading"><span class="fw-bold">Q(31)</span>
+                        Show that the function defined by f(x) = cos (x<sup>2</sup>) is a continuous function.
+                    </span>
+
+
+                    <br>
+                    <br> <span class="text-success heading">Solutions </span>
+                    <img src="cdimg/exercise5.1img/img31.jpg" alt="" class="img-fluid">
+                    <img src="cdimg/exercise5.1img/img31-1.jpg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col border border-1 mt-3">
+                    <span class="text-danger heading"><span class="fw-bold">Q(32)</span>
+                        Show that the function defined by f(x) = | cos x | is a continuous function.
+                    </span>
+
+
+                    <br>
+                    <br> <span class="text-success heading">Solutions </span>
+                    <img src="cdimg/exercise5.1img/img32.jpg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col border border-1 mt-3">
+                    <span class="text-danger heading"><span class="fw-bold">Q(33)</span>
+                        Examine that sin | x | is a continuous function
+                    </span>
+
+
+                    <br>
+                    <br> <span class="text-success heading">Solutions </span>
+                    <img src="cdimg/exercise5.1img/img33.jpg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col border border-1 mt-3">
+                    <span class="text-danger heading"><span class="fw-bold">Q(34)</span>
+                        Find all the points of discontinuity of f defined by f(x) = | x | – | x + 1 |.
+                    </span>
+
+
+                    <br>
+                    <br> <span class="text-success heading">Solutions </span>
+                    <img src="cdimg/exercise5.1img/img34.jpg" alt="" class="img-fluid">
+                    <img src="cdimg/exercise5.1img/img34-1.jpg" alt="" class="img-fluid">
+                    <img src="cdimg/exercise5.1img/img34-2.jpg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+</body>
+
+</html>
